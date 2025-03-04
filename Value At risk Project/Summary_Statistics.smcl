@@ -1,0 +1,418 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Spandan\Desktop\College and research\IETF\Value At risk Project\Summary_Statistics.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}12 Nov 2023, 12:04:14
+{txt}
+{com}. 
+. su rtn_gbpusd, detail
+
+                         {txt}RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01493        -.03485
+{txt} 5%    {res}  -.00933        -.03031
+{txt}10%    {res}  -.00671        -.02906       {txt}Obs         {res}      5,180
+{txt}25%    {res}  -.00324        -.02848       {txt}Sum of Wgt. {res}      5,180
+
+{txt}50%    {res}   .00005                      {txt}Mean          {res} .0000667
+                        {txt}Largest       Std. Dev.     {res} .0060047
+{txt}75%    {res}   .00323         .03872
+{txt}90%    {res}   .00679         .04181       {txt}Variance      {res} .0000361
+{txt}95%    {res}  .009555         .04232       {txt}Skewness      {res} .6848122
+{txt}99%    {res}   .01618         .07909       {txt}Kurtosis      {res} 11.85887
+{txt}
+{com}. 
+. 
+. 
+. bysort year :su rtn_gbpusd, detail
+
+{txt}{hline}
+-> year = 2003
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.00718        -.00718
+{txt} 5%    {res}  -.00679        -.00679
+{txt}10%    {res}  -.00644        -.00644       {txt}Obs         {res}         23
+{txt}25%    {res}  -.00606        -.00644       {txt}Sum of Wgt. {res}         23
+
+{txt}50%    {res}  -.00064                      {txt}Mean          {res}-.0017404
+                        {txt}Largest       Std. Dev.     {res} .0035641
+{txt}75%    {res}   .00051         .00192
+{txt}90%    {res}   .00322         .00322       {txt}Variance      {res} .0000127
+{txt}95%    {res}   .00329         .00329       {txt}Skewness      {res}-.1220293
+{txt}99%    {res}   .00429         .00429       {txt}Kurtosis      {res} 1.846602
+
+{txt}{hline}
+-> year = 2004
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}   -.0134        -.01972
+{txt} 5%    {res}  -.01019        -.01363
+{txt}10%    {res}  -.00767         -.0134       {txt}Obs         {res}        261
+{txt}25%    {res}  -.00474        -.01224       {txt}Sum of Wgt. {res}        261
+
+{txt}50%    {res}   -.0009                      {txt}Mean          {res}-.0002707
+                        {txt}Largest       Std. Dev.     {res} .0063621
+{txt}75%    {res}    .0037         .01542
+{txt}90%    {res}   .00826         .01569       {txt}Variance      {res} .0000405
+{txt}95%    {res}   .01082         .01603       {txt}Skewness      {res} .2913139
+{txt}99%    {res}   .01569         .01978       {txt}Kurtosis      {res} 3.087254
+
+{txt}{hline}
+-> year = 2005
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01099        -.01607
+{txt} 5%    {res}  -.00853        -.01131
+{txt}10%    {res}  -.00642        -.01099       {txt}Obs         {res}        259
+{txt}25%    {res}  -.00296        -.01049       {txt}Sum of Wgt. {res}        259
+
+{txt}50%    {res}   .00033                      {txt}Mean          {res}  .000423
+                        {txt}Largest       Std. Dev.     {res} .0049831
+{txt}75%    {res}   .00388          .0111
+{txt}90%    {res}   .00661         .01201       {txt}Variance      {res} .0000248
+{txt}95%    {res}   .00819          .0121       {txt}Skewness      {res}-.1867954
+{txt}99%    {res}   .01201         .01405       {txt}Kurtosis      {res}   2.9605
+
+{txt}{hline}
+-> year = 2006
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01195        -.01696
+{txt} 5%    {res} -.008795        -.01328
+{txt}10%    {res} -.007365        -.01195       {txt}Obs         {res}        260
+{txt}25%    {res}  -.00338         -.0119       {txt}Sum of Wgt. {res}        260
+
+{txt}50%    {res}        0                      {txt}Mean          {res}-.0004993
+                        {txt}Largest       Std. Dev.     {res} .0047624
+{txt}75%    {res}  .002835         .00898
+{txt}90%    {res}  .005145         .00909       {txt}Variance      {res} .0000227
+{txt}95%    {res}   .00686         .00925       {txt}Skewness      {res}-.4290981
+{txt}99%    {res}   .00909         .00996       {txt}Kurtosis      {res}  3.06101
+
+{txt}{hline}
+-> year = 2007
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.00989        -.01307
+{txt} 5%    {res}  -.00748        -.01222
+{txt}10%    {res}  -.00539        -.00989       {txt}Obs         {res}        257
+{txt}25%    {res}  -.00304        -.00978       {txt}Sum of Wgt. {res}        257
+
+{txt}50%    {res}   -.0003                      {txt}Mean          {res}-.0000543
+                        {txt}Largest       Std. Dev.     {res} .0048468
+{txt}75%    {res}   .00199         .01542
+{txt}90%    {res}   .00593         .01806       {txt}Variance      {res} .0000235
+{txt}95%    {res}   .00766         .01872       {txt}Skewness      {res} .7775085
+{txt}99%    {res}   .01806         .01942       {txt}Kurtosis      {res} 5.233956
+
+{txt}{hline}
+-> year = 2008
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.02308        -.03485
+{txt} 5%    {res}  -.01292        -.02336
+{txt}10%    {res}   -.0089        -.02308       {txt}Obs         {res}        256
+{txt}25%    {res} -.002525         -.0207       {txt}Sum of Wgt. {res}        256
+
+{txt}50%    {res}  .000525                      {txt}Mean          {res} .0011876
+                        {txt}Largest       Std. Dev.     {res} .0088183
+{txt}75%    {res}    .0051         .02878
+{txt}90%    {res}   .01101         .02958       {txt}Variance      {res} .0000778
+{txt}95%    {res}   .01645         .03096       {txt}Skewness      {res} .2342524
+{txt}99%    {res}   .02958         .03439       {txt}Kurtosis      {res} 5.711156
+
+{txt}{hline}
+-> year = 2009
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01877         -.0206
+{txt} 5%    {res}  -.01439         -.0197
+{txt}10%    {res}  -.01171        -.01877       {txt}Obs         {res}        261
+{txt}25%    {res}  -.00611        -.01753       {txt}Sum of Wgt. {res}        261
+
+{txt}50%    {res}  -.00076                      {txt}Mean          {res}-.0003794
+                        {txt}Largest       Std. Dev.     {res} .0089782
+{txt}75%    {res}   .00463         .02401
+{txt}90%    {res}   .01017          .0244       {txt}Variance      {res} .0000806
+{txt}95%    {res}   .01618         .02565       {txt}Skewness      {res} .5856726
+{txt}99%    {res}    .0244         .03872       {txt}Kurtosis      {res} 4.231558
+
+{txt}{hline}
+-> year = 2010
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01279        -.01721
+{txt} 5%    {res}  -.00993        -.01471
+{txt}10%    {res}  -.00812        -.01279       {txt}Obs         {res}        261
+{txt}25%    {res}  -.00433        -.01256       {txt}Sum of Wgt. {res}        261
+
+{txt}50%    {res}   .00043                      {txt}Mean          {res} .0001806
+                        {txt}Largest       Std. Dev.     {res} .0062604
+{txt}75%    {res}   .00436         .01557
+{txt}90%    {res}   .00741         .01562       {txt}Variance      {res} .0000392
+{txt}95%    {res}   .01069         .01666       {txt}Skewness      {res}  .084677
+{txt}99%    {res}   .01562         .01722       {txt}Kurtosis      {res} 2.914901
+
+{txt}{hline}
+-> year = 2011
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01107        -.01558
+{txt} 5%    {res}  -.00901         -.0126
+{txt}10%    {res}  -.00692        -.01107       {txt}Obs         {res}        259
+{txt}25%    {res}  -.00388        -.01051       {txt}Sum of Wgt. {res}        259
+
+{txt}50%    {res}  -.00003                      {txt}Mean          {res} 5.33e-06
+                        {txt}Largest       Std. Dev.     {res} .0053502
+{txt}75%    {res}   .00391         .01213
+{txt}90%    {res}   .00676         .01214       {txt}Variance      {res} .0000286
+{txt}95%    {res}   .00947          .0142       {txt}Skewness      {res} .0677741
+{txt}99%    {res}   .01214         .01447       {txt}Kurtosis      {res} 2.828605
+
+{txt}{hline}
+-> year = 2012
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01032        -.01278
+{txt} 5%    {res}  -.00594         -.0105
+{txt}10%    {res}  -.00499        -.01032       {txt}Obs         {res}        261
+{txt}25%    {res}  -.00267        -.01008       {txt}Sum of Wgt. {res}        261
+
+{txt}50%    {res}  -.00016                      {txt}Mean          {res}-.0001814
+                        {txt}Largest       Std. Dev.     {res} .0038963
+{txt}75%    {res}   .00222           .009
+{txt}90%    {res}   .00491         .00964       {txt}Variance      {res} .0000152
+{txt}95%    {res}    .0069         .00967       {txt}Skewness      {res} .0330775
+{txt}99%    {res}   .00964         .00976       {txt}Kurtosis      {res} 3.349513
+
+{txt}{hline}
+-> year = 2013
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01285        -.02121
+{txt} 5%    {res} -.008125        -.01424
+{txt}10%    {res} -.005765        -.01285       {txt}Obs         {res}        260
+{txt}25%    {res} -.003095         -.0128       {txt}Sum of Wgt. {res}        260
+
+{txt}50%    {res}        0                      {txt}Mean          {res}-.0000783
+                        {txt}Largest       Std. Dev.     {res}  .004975
+{txt}75%    {res}  .002775         .01067
+{txt}90%    {res}   .00611         .01088       {txt}Variance      {res} .0000248
+{txt}95%    {res}  .008275         .01288       {txt}Skewness      {res}-.1996336
+{txt}99%    {res}   .01088         .01553       {txt}Kurtosis      {res} 4.236901
+
+{txt}{hline}
+-> year = 2014
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.00975        -.01033
+{txt} 5%    {res}   -.0054        -.01002
+{txt}10%    {res}  -.00397        -.00975       {txt}Obs         {res}        261
+{txt}25%    {res}  -.00188        -.00837       {txt}Sum of Wgt. {res}        261
+
+{txt}50%    {res}   .00018                      {txt}Mean          {res} .0002216
+                        {txt}Largest       Std. Dev.     {res} .0035884
+{txt}75%    {res}   .00185         .01025
+{txt}90%    {res}   .00436         .01098       {txt}Variance      {res} .0000129
+{txt}95%    {res}   .00719         .01098       {txt}Skewness      {res} .3402017
+{txt}99%    {res}   .01098         .01221       {txt}Kurtosis      {res} 4.276533
+
+{txt}{hline}
+-> year = 2015
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01324        -.01445
+{txt} 5%    {res}  -.00916        -.01413
+{txt}10%    {res}  -.00628        -.01324       {txt}Obs         {res}        261
+{txt}25%    {res}  -.00293        -.01236       {txt}Sum of Wgt. {res}        261
+
+{txt}50%    {res}   .00047                      {txt}Mean          {res} .0001891
+                        {txt}Largest       Std. Dev.     {res} .0051996
+{txt}75%    {res}   .00301         .01348
+{txt}90%    {res}    .0059         .01363       {txt}Variance      {res}  .000027
+{txt}95%    {res}   .00896         .01372       {txt}Skewness      {res} .0426997
+{txt}99%    {res}   .01363          .0191       {txt}Kurtosis      {res} 3.853735
+
+{txt}{hline}
+-> year = 2016
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01799        -.02263
+{txt} 5%    {res}   -.0097         -.0201
+{txt}10%    {res}  -.00733        -.01799       {txt}Obs         {res}        261
+{txt}25%    {res}  -.00361        -.01552       {txt}Sum of Wgt. {res}        261
+
+{txt}50%    {res}   .00076                      {txt}Mean          {res} .0007176
+                        {txt}Largest       Std. Dev.     {res} .0083327
+{txt}75%    {res}   .00455          .0192
+{txt}90%    {res}    .0083         .02454       {txt}Variance      {res} .0000694
+{txt}95%    {res}   .01048         .02805       {txt}Skewness      {res} 3.234932
+{txt}99%    {res}   .02454         .07909       {txt}Kurtosis      {res}  32.2306
+
+{txt}{hline}
+-> year = 2017
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01451        -.02848
+{txt} 5%    {res}  -.00837        -.02258
+{txt}10%    {res}  -.00661        -.01451       {txt}Obs         {res}        258
+{txt}25%    {res}  -.00322        -.01305       {txt}Sum of Wgt. {res}        258
+
+{txt}50%    {res}   -.0003                      {txt}Mean          {res}-.0003477
+                        {txt}Largest       Std. Dev.     {res} .0054363
+{txt}75%    {res}   .00277         .01255
+{txt}90%    {res}   .00566         .01333       {txt}Variance      {res} .0000296
+{txt}95%    {res}   .00864         .01536       {txt}Skewness      {res}-.4759204
+{txt}99%    {res}   .01333         .01862       {txt}Kurtosis      {res} 6.651975
+
+{txt}{hline}
+-> year = 2018
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01402        -.01818
+{txt} 5%    {res}   -.0077        -.01442
+{txt}10%    {res}  -.00558        -.01402       {txt}Obs         {res}        261
+{txt}25%    {res}  -.00315        -.01299       {txt}Sum of Wgt. {res}        261
+
+{txt}50%    {res}  -.00013                      {txt}Mean          {res} .0002193
+                        {txt}Largest       Std. Dev.     {res} .0051731
+{txt}75%    {res}   .00353         .01195
+{txt}90%    {res}   .00647         .01264       {txt}Variance      {res} .0000268
+{txt}95%    {res}   .00826         .01445       {txt}Skewness      {res}-.0475969
+{txt}99%    {res}   .01264         .01706       {txt}Kurtosis      {res} 3.739237
+
+{txt}{hline}
+-> year = 2019
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01787        -.02063
+{txt} 5%    {res}  -.00883        -.01983
+{txt}10%    {res} -.005835        -.01787       {txt}Obs         {res}        260
+{txt}25%    {res}  -.00295        -.01661       {txt}Sum of Wgt. {res}        260
+
+{txt}50%    {res}    .0003                      {txt}Mean          {res}-.0001251
+                        {txt}Largest       Std. Dev.     {res} .0052519
+{txt}75%    {res}   .00323         .01139
+{txt}90%    {res}  .005435         .01295       {txt}Variance      {res} .0000276
+{txt}95%    {res}  .007085         .01381       {txt}Skewness      {res}-.6027667
+{txt}99%    {res}   .01295         .01839       {txt}Kurtosis      {res}   5.2247
+
+{txt}{hline}
+-> year = 2020
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}   -.0168        -.02906
+{txt} 5%    {res}  -.01089        -.02049
+{txt}10%    {res}  -.00753         -.0168       {txt}Obs         {res}        262
+{txt}25%    {res}  -.00408        -.01518       {txt}Sum of Wgt. {res}        262
+
+{txt}50%    {res} -.000485                      {txt}Mean          {res} -.000148
+                        {txt}Largest       Std. Dev.     {res} .0069262
+{txt}75%    {res}   .00312         .01479
+{txt}90%    {res}   .00837         .01483       {txt}Variance      {res}  .000048
+{txt}95%    {res}   .01133         .01953       {txt}Skewness      {res} .6522416
+{txt}99%    {res}   .01483         .04181       {txt}Kurtosis      {res} 8.538474
+
+{txt}{hline}
+-> year = 2021
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01021        -.01261
+{txt} 5%    {res}  -.00619        -.01077
+{txt}10%    {res}  -.00493        -.01021       {txt}Obs         {res}        261
+{txt}25%    {res}  -.00295        -.00785       {txt}Sum of Wgt. {res}        261
+
+{txt}50%    {res}   .00028                      {txt}Mean          {res} .0000372
+                        {txt}Largest       Std. Dev.     {res} .0041475
+{txt}75%    {res}   .00242         .00995
+{txt}90%    {res}   .00489         .01092       {txt}Variance      {res} .0000172
+{txt}95%    {res}    .0071          .0117       {txt}Skewness      {res} .1994107
+{txt}99%    {res}   .01092          .0137       {txt}Kurtosis      {res} 3.339946
+
+{txt}{hline}
+-> year = 2022
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}   -.0177        -.03031
+{txt} 5%    {res}  -.01267         -.0284
+{txt}10%    {res}   -.0088         -.0177       {txt}Obs         {res}        260
+{txt}25%    {res}  -.00311        -.01723       {txt}Sum of Wgt. {res}        260
+
+{txt}50%    {res}  .000495                      {txt}Mean          {res} .0004345
+                        {txt}Largest       Std. Dev.     {res} .0076944
+{txt}75%    {res}   .00448         .01871
+{txt}90%    {res}  .009295          .0189       {txt}Variance      {res} .0000592
+{txt}95%    {res}   .01149         .02033       {txt}Skewness      {res} .2003465
+{txt}99%    {res}    .0189         .04232       {txt}Kurtosis      {res} 7.272268
+
+{txt}{hline}
+-> year = 2023
+
+                         RTN_GBPUSD
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  -.01102        -.01699
+{txt} 5%    {res}  -.00738        -.01307
+{txt}10%    {res}  -.00628        -.01102       {txt}Obs         {res}        217
+{txt}25%    {res}  -.00369        -.01012       {txt}Sum of Wgt. {res}        217
+
+{txt}50%    {res}   .00003                      {txt}Mean          {res}-.0000416
+                        {txt}Largest       Std. Dev.     {res} .0050953
+{txt}75%    {res}    .0029         .01208
+{txt}90%    {res}   .00644         .01357       {txt}Variance      {res}  .000026
+{txt}95%    {res}   .00839         .01466       {txt}Skewness      {res} .2117701
+{txt}99%    {res}   .01357         .01666       {txt}Kurtosis      {res} 3.586282
+
+{txt}
+{com}. 
+. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Spandan\Desktop\College and research\IETF\Value At risk Project\Summary_Statistics.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}12 Nov 2023, 12:04:14
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
